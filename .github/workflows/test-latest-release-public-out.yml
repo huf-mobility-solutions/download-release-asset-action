@@ -10,11 +10,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Download asset action step
-      uses: fabriciobastian/download-release-asset-action@v1.0.6
+      uses: huf-mobility-solutions/download-release-asset-action@v1.0.6
       with:
         version: latest
-        repository: JsonRpcNet/JsonRpcNet.Ui
-        file: jsonrpcnet-ui.zip
+        repository: huf-mobility-solutions/public-action-test
+        file: test.zip
         out: ./some/deep/path/
     - name: Unzip output file
-      run: unzip ./some/deep/path/jsonrpcnet-ui.zip
+      run: unzip ./some/deep/path/test.zip

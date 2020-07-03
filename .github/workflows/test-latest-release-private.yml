@@ -1,20 +1,20 @@
-name: test-latest-release-private
+# name: test-latest-release-private
 
-on: [push]
+# on: [push]
 
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    name: Test download asset
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v1
-    - name: Download asset action step
-      uses: fabriciobastian/download-release-asset-action@v1.0.6
-      with:
-        version: latest
-        repository: fabriciobastian/test-download-release-asset-action
-        file: test.zip
-        token: ${{secrets.TEST_ACTION}}
-    - name: Unzip output file
-      run: unzip test.zip
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+#     name: Test download asset
+#     steps:
+#     - name: Checkout
+#       uses: actions/checkout@v1
+#     - name: Download asset action step
+#       uses: huf-mobility-solutions/download-release-asset-action@v1.0.6
+#       with:
+#         version: latest
+#         repository: huf-mobility-solutions/private-action-test
+#         file: test.zip
+#         token: ${{secrets.TEST_ACTION}} #got no secret :(
+#     - name: Unzip output file
+#       run: unzip test.zip
