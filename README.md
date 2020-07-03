@@ -40,15 +40,11 @@ For more examples, please look at the workflows in this repository.
 
 [![GitHub build action status](https://github.com/fabriciobastian/download-release-asset-action/workflows/test-latest-release-public/badge.svg)](https://github.com/fabriciobastian/download-release-asset-action/actions)
 
-[![GitHub build action status](https://github.com/fabriciobastian/download-release-asset-action/workflows/test-latest-release-private/badge.svg)](https://github.com/fabriciobastian/download-release-asset-action/actions)
-
 [![GitHub build action status](https://github.com/fabriciobastian/download-release-asset-action/workflows/test-latest-release-public-out/badge.svg)](https://github.com/fabriciobastian/download-release-asset-action/actions)
 
 ## Local repository tests
 
 [![GitHub build action status](https://github.com/fabriciobastian/download-release-asset-action/workflows/test-local-public/badge.svg)](https://github.com/fabriciobastian/download-release-asset-action/actions)
-
-[![GitHub build action status](https://github.com/fabriciobastian/download-release-asset-action/workflows/test-local-private/badge.svg)](https://github.com/fabriciobastian/download-release-asset-action/actions)
 
 [![GitHub build action status](https://github.com/fabriciobastian/download-release-asset-action/workflows/test-local-public-out/badge.svg)](https://github.com/fabriciobastian/download-release-asset-action/actions)
 
